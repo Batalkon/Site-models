@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>RUCatron</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Загрузка...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">RUC<span class="text-primary">atron.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="index.html#home-section" class="nav-link">Главная</a></li>
+                <li class="has-children">
+                  <a href="index.html#about-section" class="nav-link">О нас</a>
+                  <ul class="dropdown">                 
+                    <li><a href="tovar.html#pricing-section" class="nav-link">Цена</a></li>
+                    <li><a href="index.html#faq-section" class="nav-link">Вопросы</a></li>
+                    <li><a href="tovar.html#gallery-section" class="nav-link">Товары</a></li>
+                    <li><a href="index.html#services-section" class="nav-link">Услуги</a></li>                    
+                    <li class="has-children">
+                      <a href="#">Ссылки</a>
+                      <ul class="dropdown">
+                        <li><a href="#">1 One</a></li>
+                        <li><a href="#">2 Two</a></li>
+                        <li><a href="#">3 Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                
+                
+                <li><a href="index.html#blog-section" class="nav-link">Блог</a></li>
+                <li><a href="index.html#contact-section" class="nav-link">Контакты</a></li>
+                <li class="social"><a href="index.html#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
+                <li class="social"><a href="index.html#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
+                <li class="social"><a href="index.html#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(images/img_1.jpg);" data-aos="fade">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+              <div class="col-md-8 mt-lg-5 text-center">
+                <h1>Лучшие продавцы за все время</h1>
+                <p class="post-meta">Опубликовано &bull; Июнь 18, 2022 &bull;</p>
+                
+              </div>
+            
+        </div>
+      </div>
+    </div>  
+
+    
+    
+    <section class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 blog-content">
+            <div class="row mb-5">
+              <div class="col-lg-6">
+                <figure><img src="images/razrab.png" alt="Free Website Template by Free-Template.co" class="img-fluid">
+                  <figcaption>Фото проданного товара</figcaption></figure>
+              </div>
+              <div class="col-lg-6">
+                <figure><img src="images/razrab.png" alt="Free Website Template by Free-Template.co" class="img-fluid">
+                  <figcaption>Фото проданного товара</figcaption></figure>
+              </div>
+            </div>
+            <p class="lead">!В разработке!</p>
+            <p>&bull; !В разработке!</p>
+
+            <blockquote><p>&bull; !В разработке!</p></blockquote>
+
+            <p>&bull; !В разработке!</p>
+            <p>&bull; !В разработке!</p>
+            <p>&bull; !В разработке!</p>
+            <p>&bull; !В разработке!</p>
+
+            <p>&bull; !В разработке!</p>
+            <p>&bull; !В разработке!</p>
+            <p>&bull; !В разработке!</p>
+            <div class="pt-5">
+              <p>Категории:  <a href="#">По_продажам</a>, <a href="#">Дата</a>  Теги: <a href="#">#Maya</a>, <a href="#">#Blender</a></p>
+            </div>
+
+
+            <div class="pt-5">
+              <h3 class="mb-5">Комммментарии</h3>
+              <ul class="comment-list">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/razrab.png" alt="Free Website Template by Free-Template.co">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Продавец%Пользователь</h3>
+                    <div class="meta">Дата размещения: 00, 2022 в 0:00pm</div>
+                    <p>&bull; !В разработке!</p>
+                    <p><a href="#" class="reply">Ответ&bull; !В разработке!</a></p>
+                  </div>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/razrab.png" alt="Free Website Template by Free-Template.co">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Продавец%Пользователь</h3>
+                    <div class="meta">Дата размещения: 00, 2022 в 0:00pm</div>
+                    <p>&bull; !В разработке!</p>
+                    <p><a href="#" class="reply">Ответ&bull; !В разработке!</a></p>
+                  </div>
+                
+
+                  <ul class="children">
+                    <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/razrab.png" alt="Free Website Template by Free-Template.co">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Продавец%Пользователь</h3>
+                    <div class="meta">Дата размещения: 00, 2022 в 0:00pm</div>
+                    <p>&bull; !В разработке!</p>
+                    <p><a href="#" class="reply">Ответ&bull; !В разработке!</a></p>
+                  </div>
+                
+
+
+                      <ul class="children">
+                        <li class="comment">
+                          <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/razrab.png" alt="Free Website Template by Free-Template.co">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Продавец%Пользователь</h3>
+                    <div class="meta">Дата размещения: 00, 2022 в 0:00pm</div>
+                    <p>&bull; !В разработке!</p>
+                    <p><a href="#" class="reply">Ответ&bull; !В разработке!</a></p>
+                  </div>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/razrab.png" alt="Free Website Template by Free-Template.co">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Продавец%Пользователь</h3>
+                    <div class="meta">Дата размещения: 00, 2022 в 0:00pm</div>
+                    <p>&bull; !В разработке!</p>
+                    <p><a href="#" class="reply">Ответ&bull; !В разработке!</a></p>
+                  </div>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard bio">
+                    <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/razrab.png" alt="Free Website Template by Free-Template.co">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Продавец%Пользователь</h3>
+                    <div class="meta">Дата размещения: 00, 2022 в 0:00pm</div>
+                    <p>&bull; !В разработке!</p>
+                    <p><a href="#" class="reply">Ответ&bull; !В разработке!</a></p>
+                  </div>
+                </li>
+              </ul>
+              <!-- Написать комментарий -->
+              
+              <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Отправть комментарий</h3>
+                <form action="#" class="p-5 bg-light">
+                  <div class="form-group">
+                    <label for="name">Имя%Никнейм *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="website">!В разработке!</label>
+                    <input type="url" class="form-control" id="website">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Отправть комментарий" class="btn btn-primary">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 sidebar">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon fa fa-search"></span>
+                  <input type="text" class="form-control" placeholder="Поиск &bull; !В разработке!">
+                </div>
+              </form>
+            </div>
+            <div class="sidebar-box">
+              <div class="categories">
+                <h3>Категории</h3>
+                <li><a href="#">Креатив <span>(!кол-во!)</span></a></li>
+                <li><a href="#">Новости%Обновления <span>(!кол-во!)</span></a></li>
+                <li><a href="#">Чат-поддержка <span>(!кол-во!)</span></a></li>
+                <li><a href="#">HTML-структура товара <span>(!кол-во!)</span></a></li>
+                <li><a href="#">&bull; !В разработке!<span>(!кол-во!)</span></a></li>
+              </div>
+            </div>
+            <div class="sidebar-box">
+              <img src="images/polzovatel.png" alt="Image placeholder" class="img-fluid mb-4">
+              <h3>О продавце</h3>
+              <p>Краткое описание работ%!В разработке!</p>
+              <p><a href="#" class="btn btn-primary btn-sm">К продавцу</a></p>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+     <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">О нас</h2>
+                <p>Наша команда cостоит из профессионалов,которые всегда готовы Вам помочь.</p>
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Ссылки</h2>
+                <ul class="list-unstyled">
+                  <li><a href="Пользовательское соглашение.pdf" class="smoothscroll">Условия</a></li>
+                  <li><a href="Пользовательское соглашение.pdf" class="smoothscroll">Политика</a></li>
+                  <li><a href="#about-section" class="smoothscroll">О нас</a></li>
+                  <li><a href="#services-section" class="smoothscroll">Услуги</a></li>
+                  <li><a href="#contact-section" class="smoothscroll">Связаться</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 footer-social">
+                <h2 class="footer-heading mb-4">Соц.сети</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Подписаться на Рассылку </h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent"
+                  placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright"><small>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  &copy;
+                  <script>document.write(new Date().getFullYear());</script>  Этот сайт сделан с <i
+                    class="icon-heart text-danger" aria-hidden="true"></i> by <a href="index.html"
+                    target="_blank">RUCatron</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </small></p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+
+  </body>
+</html>

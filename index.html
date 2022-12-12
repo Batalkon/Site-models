@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>RUCatron </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="js/search.js" >
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Загрузка...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">RUC<span class="text-primary">atron</span>
+              </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Главная</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">О нас</a>
+                  <ul class="dropdown">
+                    <li><a href="tovar.html" class="nav-link">Цены</a></li>
+                    <li><a href="#faq-section" class="nav-link">Вопросы</a></li>
+                    <li><a href="tovar.html" class="nav-link">Товары</a></li>
+                    <li><a href="#services-section" class="nav-link">Услуги</a></li>
+                    <li class="has-children">
+                      <a href="#">Ссылки</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Доп ссылка1</a></li>
+                        <li><a href="#">Доп ссылка2</a></li>
+                        <li><a href="#">Доп ссылка3</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+				
+                <li><a href="#blog-section" class="nav-link">Блог</a></li>
+                <li><a href="#contact-section" class="nav-link">Контакты</a></li>
+                <li><a href="login.html" class="">Вход/Регистрация</a></li>
+				<li><button class="button button-cart">
+					<img class="button-icon" src="images/cart.png" alt="icon: cart">
+					<span class="button-text">Корзина</span>
+					<span class="button-text cart-count"></span>
+				</button></li>
+				<li>
+					<form action="index.html" method="get" target="_blank">
+					 <input type="hidden" name="searchid" value="808327">
+					 <input type="hidden" name="as_sitesearch" value="index.html">
+					<input name="s" placeholder="Искать здесь..." type="search">
+					<button class="button-search" type="submit">Поиск</button>
+					</form>
+				</li>
+                <li class="social"><a href="https://www.facebook.com" class="nav-link"><span class="icon-facebook"></span></a>
+                </li>
+                <li class="social"><a href="https://twitter.com" class="nav-link"><span class="icon-twitter"></span></a>
+                </li>
+                <li class="social"><a href="https://instagram.com" class="nav-link"><span class="icon-linkedin"></span></a>
+                </li>
+        </div>
+      </div>
+
+    </header>
+
+
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade"
+      id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Продажа 3D моделей</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Мы предоставляем услуги по продаже ваших
+                  проектов</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Доступные цены</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Мы подбираем лучшие проекты по доступным
+                  ценам</p>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Мы ценим ваше время</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Быстрые транзакции, а также связь с
+                  продавцом</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <a href="#next" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>
+
+    <div class="site-section" id="next">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
+            <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co"
+              class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Выгода</h3>
+            <p>Наши товары имеют одну из самых низких цен,а также с продавцов взымается наименьший процент с продаж</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co"
+              class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Оформление заказов</h3>
+            <p>Удобный сервис онлайн покупок</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
+            <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co"
+              class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Быстрая оплата</h3>
+            <p>Оплата в два клика!</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+              <img class="glav" src="images/glav.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3 class="h3 mb-4 text-black">Амортизация</h3>
+              <p>Если ваш товар долгое время не покупается,не беда,мы предложим вам 50% от его стоимости</p>
+
+            </div>
+
+            <div class="mb-4">
+              <ul class="list-unstyled ul-check success">
+                <li>Мы следим за ассортиментом товаров</li>
+                <li>Производим постоянные обновления в целях и интересов клиентов и продавцов</li>
+                <li>Перенос своих активов,для поддиржания начинающих продавцов</li>
+              </ul>
+
+            </div>
+
+            <div class="mb-4">
+              <form action="#">
+                <div class="form-group d-flex align-items-center">
+                  <input type="text" class="form-control mr-2" placeholder="Email">
+                  <input type="submit" class="btn btn-primary" value="Отправить Email">
+                </div>
+              </form>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">О нас</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Наша платформа предоставляет услуги по продажам 3D-моделей</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+              <img src="images/hero_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="text-black mb-4">Как это работает?</h3>
+
+            <p>Наша платформа предоставляет доступ не только к покупке моделей,но и их продаже.Ваши товары будут храниться в вашем личном кабинете,в целях удобства.</p>
+
+            <p>Так же в скором времени,мы планируем ввести систему аукциона,на котором также можно будет продовать или приобретать товары по назначенным ценам.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <section class="site-section border-bottom bg-light" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Другие услуги</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co"
+                  class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Бизнес-консалтинг</h3>
+                <p>Тут что-то напишем</p>
+                <p><a href="#">читать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co"
+                  class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Кредитная карта</h3>
+                <p>Наша система оплаты проходит по кредитным картам</p>
+                <p><a href="#">читать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/002-rich.svg" alt="Free Website Template by Free-Template.co"
+                  class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Мониторинг доходов</h3>
+                <p>Для продавцов есть возможность просмотра своих продаж</p>
+                <p><a href="#">читать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/003-notes.svg" alt="Free Website Template by Free-Template.co"
+                  class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Консультации по безопастности</h3>
+                <p>Мы полностью несём ответственность за наших продавцов, а также следим за выполнением их обязанностей</p>
+                <p><a href="#">читать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co"
+                  class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Финансовые Инвестиции</h3>
+                <p>В скором времени, на нашей площадке появиться возможность аукциона.!В Разработке!</p>
+                <p><a href="#">читать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/005-megaphone.svg" alt="Free Website Template by Free-Template.co"
+                  class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Финансовый менеджмент</h3>
+                <p>Тут что-то напишем</p>
+                <p><a href="#">читать больше</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section class="site-section" id="blog-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Наши лучшие продавцы</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="h-entry">
+              <a>
+                <img src="images/polzovatel.png" alt="Image" class="img-fluid">
+              </a>
+              <h2 class="font-size-regular"><a href="#">!В разработке!</a>
+              </h2>
+              <div class="meta mb-4">Meto228 <span class="mx-2">&bullet;</span> Июнь 18, 2019<span
+                  class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <p>Тут что-то напишем</p>
+              <p><a href="single.html">Читать дальше...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="h-entry">
+              <a>
+                <img src="images/polzovatel.png" alt="Image" class="img-fluid">
+              </a>
+              <h2 class="font-size-regular"><a href="#">!В разработке!</a>
+              </h2>
+              <div class="meta mb-4">HopeDel <span class="mx-2">&bullet;</span> Июль 18, 2019<span
+                  class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <p>Тут что-то напишем</p>
+              <p><a href="single1.html">Читать дальше...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="h-entry">
+              <a>
+                <img src="images/polzovatel.png" alt="Image" class="img-fluid">
+              </a>
+              <h2 class="font-size-regular"><a href="#">!В разработке!</a>
+              </h2>
+              <div class="meta mb-4">HakStar315 <span class="mx-2">&bullet;</span> Август 18, 2019<span
+                  class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <p>Тут что-то напишем</p>
+              <p><a href="single2.html">Читать дальше...</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="site-section bg-light" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Связаться с нами</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <a href="#">+1 232 3235 324</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <a href="#">youremail@domain.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+
+
+            <form action="#" class="p-5 bg-white">
+
+              <h2 class="h4 text-black mb-5">Оставить обращение</h2>
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Имя</label>
+                  <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Фамилия</label>
+                  <input type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label>
+                  <input type="email" id="email" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Тема</label>
+                  <input type="subject" id="subject" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Сообщение</label>
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control"
+                    placeholder="Напишите свои вопросы здесь, мы постораемся вам помочь..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Отправить сообщение" class="btn btn-primary btn-md text-white">
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">О нас</h2>
+                <p>Наша команда cостоит из профессионалов,которые всегда готовы Вам помочь.</p>
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Ссылки</h2>
+                <ul class="list-unstyled">
+                  <li><a href="Пользовательское соглашение.pdf" class="smoothscroll">Условия</a></li>
+                  <li><a href="Пользовательское соглашение.pdf" class="smoothscroll">Политика</a></li>
+                  <li><a href="#about-section" class="smoothscroll">О нас</a></li>
+                  <li><a href="#services-section" class="smoothscroll">Услуги</a></li>
+                  <li><a href="#contact-section" class="smoothscroll">Связаться</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 footer-social">
+                <h2 class="footer-heading mb-4">Соц.сети</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Подписаться на Рассылку </h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent"
+                  placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright"><small>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  &copy;
+                  <script>document.write(new Date().getFullYear());</script>  Этот сайт сделан с <i
+                    class="icon-heart text-danger" aria-hidden="true"></i> by <a href="index.html"
+                    target="_blank">RUCatron</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </small></p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
